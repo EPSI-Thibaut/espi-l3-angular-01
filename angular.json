@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/",
             "outputPath": "dist/espi-l3-angular-01",
             "index": "src/index.html",
             "browser": "src/main.ts",
