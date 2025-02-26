@@ -6,13 +6,14 @@ import { TooltipDirective } from './directives/tooltip.directive';
 import { LoginComponent } from '../../src/app/component/login/login.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from "./layout/footer/footer.component";
+import { RouterOutlet } from '@angular/router';
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [UpperCasePipe, TestPipe, JsonPipe, CommonModule, FormsModule, TooltipDirective, LoginComponent, HeaderComponent, FooterComponent],
+  imports: [UpperCasePipe, TestPipe, JsonPipe, CommonModule, FormsModule, TooltipDirective, LoginComponent, HeaderComponent, FooterComponent, RouterOutlet],
 })
 export class AppComponent {
 }
