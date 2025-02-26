@@ -43,3 +43,9 @@
 .header-content nav ul li a:hover {
   text-decoration: underline;
 }
+
+.app-active-menu {
+  text-decoration: underline;
+  color: #333;
+  background-color: rgb(121, 62, 62);
+}

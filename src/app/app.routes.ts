@@ -7,18 +7,23 @@ import { UsersDetailsComponent } from '../app/pages/users/users-details/users-de
 // adresse des routes à ajouter
 export const routes: Routes = [
     {
+        path:'',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
+    },
+    {
         path: 'dashboard',
         component: DashboardComponent,
         pathMatch: 'full',
     },
     {
-        path: 'users',
-        component: UsersComponent,
+        path: 'users/details',
+        component: UsersDetailsComponent,
         pathMatch: 'full',
     },
     {
-        path: 'users/details',
-        component: UsersDetailsComponent,
+        path: 'users',
+        component: UsersComponent,
         pathMatch: 'full',
     },
     {
