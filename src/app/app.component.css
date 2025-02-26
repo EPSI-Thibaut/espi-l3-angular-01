@@ -1,0 +1,50 @@
+/* .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(238, 238, 238);
+  color: rgb(31, 31, 31);
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+  color: rgb(101, 39, 39);
+  font-weight: bold;
+}
+
+select {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ma-petite-classe {
+  color: rgb(192, 158, 23);
+  font-weight: bold;
+}
+
+.ma-seconde-classe {
+  color: rgb(23, 192, 158);
+  font-weight: bold;
+}
+
+.ma-troisième-classe {
+  color: rgb(158, 23, 192);
+  font-weight: bold;
+}
+
+.ma-default-classe {
+  color: rgb(101, 39, 39);
+  font-weight: bold;
+} */
