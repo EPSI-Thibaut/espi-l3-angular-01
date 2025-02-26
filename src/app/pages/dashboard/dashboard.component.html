@@ -1,1 +1,29 @@
 <p>dashboard works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>username</th>
+            <th>email</th>
+            <th>adresse</th>
+            <th>phone</th>
+            <th>website</th>
+            <th>company</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{ user.name }}</td>
+            <td>{{ user.username }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.adresse }}</td>
+            <td>{{ user.phone }}</td>
+            <td>{{ user.website }}</td>
+            <td>{{ user.company }}</td>
+            <td><button [routerLink]="['/details', user.id]" [queryParams]="{ statut: user.status }">
+                Détails
+              </button></td>
+        </tr>
+    </tbody>
+</table>
